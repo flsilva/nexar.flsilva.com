@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   creator: "Flavio Silva",
   publisher: "https://flsilva.com",
   formatDetection: { telephone: false },
-  alternates: { canonical: "https://nexar.dev" },
+  alternates: { canonical: "https://nexar.flsilva.com" },
   generator: "Next.js",
   keywords: ["nexar", "application", "architecture", "nextjs", "react", "app"],
   openGraph: {
@@ -33,16 +33,16 @@ export const metadata: Metadata = {
     description:
       "Nexar is an application architecture for Next.js App Router apps.",
     siteName: "Nexar",
-    url: "https://nexar.dev",
-    images: [{ url: "https://nexar.dev/images/tweet-card.png" }],
+    url: "https://nexar.flsilva.com",
+    images: [{ url: "https://nexar.flsilva.com/images/tweet-card.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://nexar.dev",
+    site: "https://nexar.flsilva.com",
     title: "Nexar",
     description:
       "Nexar is an application architecture for Next.js App Router apps.",
-    images: [{ url: "https://nexar.dev/images/tweet-card.png" }],
+    images: [{ url: "https://nexar.flsilva.com/images/tweet-card.png" }],
     creator: "@flsilva7",
   },
 };
@@ -60,7 +60,10 @@ export default function RootLayout({
           <Link href="https://flsilva.com" className="hover:underline">
             © Flavio Silva
           </Link>
-          <Link className="mr-6" href="https://github.com/flsilva/nexar.dev/">
+          <Link
+            className="mr-6"
+            href="https://github.com/flsilva/nexar.flsilva.com/"
+          >
             <GitHubLogoIcon className="fill-white dark:fill-black" />
           </Link>
         </footer>
